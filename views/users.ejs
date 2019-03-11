@@ -1,0 +1,11 @@
+<header><% include ./common/header %></header>
+
+<h3>Users</h3>
+
+<ul>
+        <% users.forEach(function(user) { %>
+            <li><%= user.name %> - <%= user.email %></li>
+        <% }); %>
+    </ul>
+
+<footer><% include ./common/footer %></footer>

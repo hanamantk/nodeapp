@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <meta charset="UTF-8">
     <title><%= title %></title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
   </head>
   <body>
+    <header><% include ./common/header %></header>
     <div class="container">
     <h1>Home Page</h1>
     
@@ -17,5 +19,6 @@
        <a href="/login"><button class="btn btn-info">Sign In</button></a>
     </div>
   </div>
+  <footer><% include ./common/footer %></footer>
   </body>
 </html>
